@@ -7,16 +7,27 @@ The SQL file containing all the create table and insert statements is located in
 # Database Entities
 
 College: Sub-colleges of Northeastern University -- Khoury, COE, D'Amore-McKim, Bouve, CSSH
+
 Advisor: Represents the co-op advisor persona; teaches co-op classes and advises students' job search
+
 Company: A company that would post open jobs on NUHire
+
 Recruiter: A representative employee of a company; the go-to contact person for a posted job
+
 Term: The season and year for a posted job
+
 PositionType: The type of job -- Co-op, Internship, Full-time, Part-time
+
 CoopClass: A class that every student in the database must be enrolled in, to be eligible to use NUHire
+
 Student: Represents the student persona; attends Northeastern University and is job-searching
+
 Job: A specific job posted by a particular company
+
 Reference: A weak entity dependent on Student; represents that Student's job reference
+
 PreviousCoop: A position previously held by a particular student at a particular company
+
 Application: Bridge relation between Student and Job; represents a job application
 
 # AppSmith Pages

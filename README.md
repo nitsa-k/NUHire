@@ -47,4 +47,5 @@ Employer Job View: Where employers can see all submitted applications for a job 
 # Links
 
 Relational diagram for the SQL database: https://tinyurl.com/nuhirediagram
+
 Demo of application: https://youtu.be/CB_q947FjYI 

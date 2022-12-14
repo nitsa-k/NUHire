@@ -5,4 +5,5 @@ My product is a re-imagined version of Northeastern's current co-op/job searchin
 Get and post requests relevant to each major persona (student, advisor, employer) are located in their respective folders. Each has a comment above it describing the data it is retreiving/working with.
 
 Relational diagram for the SQL database: https://tinyurl.com/nuhirediagram
+
 Demo of routes and AppSmith pages: https://youtu.be/CB_q947FjYI 

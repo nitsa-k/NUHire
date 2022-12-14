@@ -1,25 +1,8 @@
-# MySQL + Flask Boilerplate Project
+# CS 3200 Final Project - NUHire
 
-This repo contains a boilerplate setup for spinning up 2 docker containers: 
-1. A MySQL 8 container for obvious reasons
-1. A Python Flask container to implement a REST API
+My product is a re-imagined version of Northeastern's current co-op/job searching platform, NUWorks. It allows employers to post open jobs, students to apply to them, and co-op advisors to keep track of students in their class and their job search progress (among other things).
 
-## How to setup and start the containers
-**Important** - you need Docker Desktop installed
+Get and post requests relevant to each major persona (student, advisor, employer) are located in their respective folders. Each has a comment above it describing the data it is retreiving/working with.
 
-1. Clone this repository.  
-1. Create a file named `db_root_password.txt` in the `secrets/` folder and put inside of it the root password for MySQL. 
-1. Create a file named `db_password.txt` in the `secrets/` folder and put inside of it the password you want to use for the `webapp` user. 
-1. In a terminal or command prompt, navigate to the folder with the `docker-compose.yml` file.  
-1. Build the images with `docker compose build`
-1. Start the containers with `docker compose up`.  To run in detached mode, run `docker compose up -d`. 
-
-## For setting up a Conda Web-Dev environment:
-
-1. `conda create -n webdev python=3.9`
-1. `conda activate webdev`
-1. `pip install flask flask-mysql flask-restful cryptography flask-login`
-
-
-
-
+Relational diagram for the SQL database: https://tinyurl.com/nuhirediagram
+Demo of routes and AppSmith pages: https://youtu.be/CB_q947FjYI 
